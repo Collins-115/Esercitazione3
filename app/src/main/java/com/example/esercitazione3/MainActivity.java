@@ -44,5 +44,8 @@ public class MainActivity extends AppCompatActivity {
         pieChartView.setRadius(300);
         pieChartView.setStrokeColor(Color.BLACK);
         pieChartView.setStrokeWidth(4);
+
+        pieChartView.setSelectedColor(0xff019e81);
+        pieChartView.setSelectedWidth(8);
     }
 }
